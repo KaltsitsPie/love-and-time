@@ -2,22 +2,21 @@
 //  ContentView.swift
 //  loveandTime
 //
-//  Created by 周彦辰 on 2024/4/4.
+//  Created by Yanchen on 2024/4/4.
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Spacer()
-            Text("Hello, world!")
+    @EnvironmentObject var sessionManager: SessionManager
+
+        var body: some View {
+            if sessionManager.isLoggedIn {
+                MyView()
+            } else {
+                LoginView()
+            }
         }
-        .padding()
-    }
 }
 
 #Preview {

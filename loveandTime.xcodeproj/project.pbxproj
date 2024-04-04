@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DB3FF4A2BC890A500C33EFE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB3FF492BC890A500C33EFE /* LoginView.swift */; };
+		2DB3FF4C2BC8975600C33EFE /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB3FF4B2BC8975600C33EFE /* SignupView.swift */; };
+		2DB3FF4E2BC8976600C33EFE /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB3FF4D2BC8976600C33EFE /* MyView.swift */; };
+		2DB3FF512BC8978900C33EFE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB3FF502BC8978900C33EFE /* User.swift */; };
+		2DB3FF542BC897BD00C33EFE /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB3FF532BC897BD00C33EFE /* SessionManager.swift */; };
 		2DE9548E2BBF589A0096A6F7 /* loveandTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE9548D2BBF589A0096A6F7 /* loveandTimeApp.swift */; };
 		2DE954902BBF589A0096A6F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE9548F2BBF589A0096A6F7 /* ContentView.swift */; };
 		2DE954922BBF589B0096A6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE954912BBF589B0096A6F7 /* Assets.xcassets */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DB3FF492BC890A500C33EFE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2DB3FF4B2BC8975600C33EFE /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		2DB3FF4D2BC8976600C33EFE /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		2DB3FF502BC8978900C33EFE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2DB3FF532BC897BD00C33EFE /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		2DE9548A2BBF589A0096A6F7 /* loveandTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loveandTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE9548D2BBF589A0096A6F7 /* loveandTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loveandTimeApp.swift; sourceTree = "<group>"; };
 		2DE9548F2BBF589A0096A6F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DB3FF4F2BC8976E00C33EFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DB3FF502BC8978900C33EFE /* User.swift */,
+				2DB3FF532BC897BD00C33EFE /* SessionManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2DE954812BBF589A0096A6F7 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +113,14 @@
 		2DE9548C2BBF589A0096A6F7 /* loveandTime */ = {
 			isa = PBXGroup;
 			children = (
+				2DB3FF4F2BC8976E00C33EFE /* Model */,
 				2DE9548D2BBF589A0096A6F7 /* loveandTimeApp.swift */,
 				2DE9548F2BBF589A0096A6F7 /* ContentView.swift */,
 				2DE954912BBF589B0096A6F7 /* Assets.xcassets */,
 				2DE954932BBF589B0096A6F7 /* Preview Content */,
+				2DB3FF492BC890A500C33EFE /* LoginView.swift */,
+				2DB3FF4B2BC8975600C33EFE /* SignupView.swift */,
+				2DB3FF4D2BC8976600C33EFE /* MyView.swift */,
 			);
 			path = loveandTime;
 			sourceTree = "<group>";
@@ -257,8 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB3FF4C2BC8975600C33EFE /* SignupView.swift in Sources */,
+				2DB3FF4A2BC890A500C33EFE /* LoginView.swift in Sources */,
+				2DB3FF512BC8978900C33EFE /* User.swift in Sources */,
+				2DB3FF4E2BC8976600C33EFE /* MyView.swift in Sources */,
 				2DE954902BBF589A0096A6F7 /* ContentView.swift in Sources */,
 				2DE9548E2BBF589A0096A6F7 /* loveandTimeApp.swift in Sources */,
+				2DB3FF542BC897BD00C33EFE /* SessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
